@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "raid_system"
+version = "${version}"
+displayName = "Raid System"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.raid_system]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.raid_system]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "raid_system.mixins.json"

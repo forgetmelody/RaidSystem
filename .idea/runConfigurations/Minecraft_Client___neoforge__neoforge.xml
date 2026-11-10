@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" factoryName="Application" name="Minecraft Client (:neoforge)" type="Application">
+    <option name="MAIN_CLASS_NAME" value="dev.architectury.transformer.TransformerRuntime"/>
+    <module name="raid_system.neoforge.main"/>
+    <option name="PROGRAM_PARAMETERS" value=""/>
+    <option name="VM_PARAMETERS" value="--sun-misc-unsafe-memory-access=allow --enable-native-access=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-exports jdk.naming.dns/com.sun.jndi.dns=java.naming &quot;-Darchitectury.main.class=D:\Minecraft Mod Program\Raid System\neoforge\.gradle\architectury\.main_class&quot; &quot;-Darchitectury.runtime.transformer=D:\Minecraft Mod Program\Raid System\neoforge\.gradle\architectury\.transforms&quot; &quot;-Darchitectury.properties=D:\Minecraft Mod Program\Raid System\neoforge\.gradle\architectury\.properties&quot; -Djdk.attach.allowAttachSelf=true &quot;-javaagent:D:\Minecraft Mod Program\Raid System\.gradle\architectury\architectury-transformer-agent.jar&quot; -Dfabric.dli.config=D:\Minecraft@@0020Mod@@0020Program\Raid@@0020System\.gradle\loom-cache\projects\neoforge\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=net.neoforged.fml.startup.Client -XX:StackShadowPages=32 --sun-misc-unsafe-memory-access=allow --enable-native-access=ALL-UNNAMED"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge\run/"/>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+    </method>
+    <envs>
+      <env name="MOD_CLASSES" value="main%%D:\Minecraft Mod Program\Raid System\neoforge\build\resources\main;main%%D:\Minecraft Mod Program\Raid System\neoforge\build\classes\java\main;main%%D:\Minecraft Mod Program\Raid System\neoforge\out\production\classes;main%%D:\Minecraft Mod Program\Raid System\neoforge\out\production\resources"/>
+    </envs>
+    <shortenClasspath name="ARGS_FILE"/>
+  <classpathModifications/></configuration>
+</component>
